@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box
+}
+html, body{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: #f6f6f6;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+
+    background-image:linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(http://www.baltana.com/files/wallpapers-5/White-Background-Desktop-Wallpaper-16569.jpg);
+}
+fieldset{
+   width:auto;
+}
+
+.page-wrapper {
+   min-height: 100%;
+}
+
+#wrapper {
+
+    width: 80%;
+
+    margin-right: auto;
+
+    margin-left: auto;
+
+    background-color: #ac5d41;
+
+    box-shadow: 5px 5px 5px #828282;
+
+}
+
+div.a {
+ font-size: 50px;
+ color: #87CEEB;
+ text-align: center;
+}
+input[type=text], select, textarea {
+ width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ resize: vertical;
+}
+
+input[type=email], select, textarea {
+ width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ resize: vertical;
+}
+
+label {
+ padding: 12px 12px 12px 0;
+ display: inline-block;
+}
+
+input[type=reset] {
+   padding: .5rem 1rem;
+   background: #C70039;
+   color: white;
+   border: 1px solid transparent;
+   border-radius: .25rem;
+   float: right;
+}
+
+input[type=reset]:hover {
+  color: white !important;
+  background: #900C3F;
+}
+input[type=submit] {
+   padding: .5rem 1rem;
+   background: #C70039;
+   color: white;
+   border: 1px solid transparent;
+   border-radius: .25rem;
+   float: right;
+}
+
+input[type=submit]:hover {
+  color: white !important;
+  background: #900C3F;
+}
+subject:hover {
+  color: white !important;
+  background: black;
+}
+.container {
+ border-radius: 5px;
+ background-color: transparent;
+ padding: 20px;
+}
+
+.section1 {
+ float: left;
+ width: 25%;
+ margin-top: 6px;
+}
+.section2 {
+ float: left;
+ width: 75%;
+ margin-top: 6px;
+}
+.section:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+.pic {
+ float:left;
+ padding:0 20px;
+}
+.address {
+ background-color: transparent;
+ float:left;
+ width:50%;
+ padding:15px;
+ margin-top:7px;
+ text-align:center;
+}
+
+
+
+
+
+header .sign{
+    display:block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 1.9em;
+}
+header .logo{
+    margin-left: .5em;
+}
+
+
+@media screen and (max-width: 600px) {
+.section1{
+   width: 100%;
+   margin-top: 0;
+}
+.section2{
+   width: 100%;
+   margin-top: 0;
+}
+
+.pic{
+ width: 100%;
+ height: auto;
+ padding: 0;
+}
+.address {
+   width:100%;
+}
+}
+
+

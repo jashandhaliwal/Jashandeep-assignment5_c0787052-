@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="finaltry.css">
+    
+
+
+
+</head>
+<body>
+ <div id="wrapper"></div>
+ 
+    <form name="Travel Form" onsubmit="return validateForm()" action="" method="post">
+        
+        <h1>Travel Form</h1>
+        
+         
+        <div class="sec1">
+            <label>First Name</label>
+            <input type="text" name="name">
+            <div class="hello" id="named"></div>
+        </div>
+        <div class="sec1">
+            <label>Last Name</label>
+            <input type="text" name="name">
+            <div class="hello" id="named"></div>
+        </div>
+        <div class="sec1">
+            <label>City</label>
+            <input type="text" name="address">
+            <div class="hello" id="address"></div>
+        </div>
+        <div class="sec1">
+            <label>Province</label>
+            <input type="text" name="address">
+            <div class="hello" id="address"></div>
+        </div>
+        <div class="sec1">
+            <label>Postal code</label>
+            <input type="number" name="address">
+            <div class="hello" id="address"></div>
+        </div>
+        <div class="sec1">
+            <label>Email Address</label>
+            <input type="text" name="email">
+            <div class="hello" id="emaild"></div>
+        </div>
+        <div class="sec1">
+            <label>Verify Email Address</label>
+            <input type="text" name="email">
+            <div class="hello" id="emaild"></div>
+        </div>
+        <div class="sec1">
+            <label>Mobile Number</label>
+            <input type="text" name="mobile" maxlength="10">
+            <div class="hello" id="mobileErr"></div>
+        </div>
+        <div class="sec1">
+            <label>Country</label>
+            <select name="country">
+                <option>Select</option>
+                <option>Australia</option>
+                <option>India</option>
+                <option>United States</option>
+                <option>United Kingdom</option>
+            </select>
+            <div class="hello" id="countryErr"></div>
+        </div>
+        <div class="sec1">
+            <label>Total number of adults</label>
+            <input type="number" name="total">
+            <div class="hello" id="totald"></div>
+        </div>
+        <div class="sec1">
+            <label>Name of adults</label>
+            <input type="text" name="name" style="height:100px">
+            <div class="hello" id="named"></div>
+        </div>
+        <div class="sec1">
+            <label>Total of children</label>
+            <input type="number" name="total">
+            <div class="hello" id="totald"></div>
+        </div>
+        <div class="sec1">
+            <label>Name of children</label>
+            <input type="text" name="name" style="height:100px">
+            <div class="hello" id="named"></div>
+        </div>
+        <div class="sec1">
+            <label>Preferred Destination</label>
+            <input type="text" name="name">
+            <div class="hello" id="named"></div>
+        </div>
+        <div class="sec1">
+            <label>Preferred Hotel</label>
+            <select name="hotel">
+                <option>Select</option>
+                <option>Penthouse</option>
+                <option>Suite</option>
+                <option>Hotel</option>
+            </select>
+            <div class="hello" id="hoteld"></div>
+        </div>
+
+        <div class="sec1">
+            <label>Gender</label>
+            <div class="form-inline">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+            </div>
+            <div class="hello" id="genderd"></div>
+        </div>
+        <div class="sec1">
+            <label>Passenger over Age of 55?</label>
+            <div class="form-inline">
+                <label><input type="radio" name="Passenger" value="yes"> Yes</label>
+                <label><input type="radio" name="Passenger" value="No"> No</label>
+            </div>
+            <div class="hello" id="numberd"></div>
+        </div>
+         <label>Military Background</label>
+            <div class="form-inline">
+                <label><input type="radio" name="Passenger" value="yes"> Yes</label>
+                <label><input type="radio" name="Passenger" value="No"> No</label>
+            </div>
+            <div class="hello" id="numberd"></div>
+        </div>
+         <label>Do you have insurance</label>
+            <div class="form-inline">
+                <label><input type="radio" name="Passenger" value="yes"> Yes</label>
+                <label><input type="radio" name="Passenger" value="No"> No</label>
+            </div>
+            <div class="hello" id="numberd"></div>
+        </div>
+
+        <div class="sec1">
+            <label>special Instructions</label>
+            <input type="text" name="name" style="height:100px">
+            <div class="hello" id="named"></div>
+        </div>
+        <div class="sec1">
+            <label>Payment Option</label>
+            <select name="Payment Option">
+                <option>Select</option>
+                <option>Cash</option>
+                <option>Check</option>
+                <option>Instalments</option>
+                <option>Visa </option>
+            </select>
+            <div class="hello" id="countryErr"></div>
+        </div>
+
+
+
+        <div class="sec1">
+            <label>Activities <i>(Optional)</i></label>
+            <div class="form-inline">
+                <label><input type="checkbox" name="hobbies[]" value="sports"> Sports</label>
+                <label><input type="checkbox" name="hobbies[]" value="shows"> shows</label>
+                <label><input type="checkbox" name="hobbies[]" value="Event Ticket"> Event Ticket</label>
+                <label><input type="checkbox" name="hobbies[]" value="movies"> Movies</label>
+                <label><input type="checkbox" name="hobbies[]" value="music"> Music</label>
+            </div>
+        </div>
+        <div class="sec1">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    <div>
+</body>
+</html>

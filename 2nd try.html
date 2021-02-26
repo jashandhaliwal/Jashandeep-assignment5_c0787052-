@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            
+
+            <table>
+                <h1> Travel Booking Form</h1>
+                <tr>
+                    <th>Passenger Contact Info </th>
+                    <td>:</td>
+                    <td><input type= "text" name ="name" id="name1" Placeholder="First name"></td>
+                    <td> </td>
+                    <td><input type= "text" name ="name" id="name1" Placeholder="Last name"></td>
+                </tr>
+
+                <tr>
+                    <th>Best Contact Number </th>
+                    <td>:</td>
+                    <td><input type= "int" name ="name" id="name2" Placeholder="Area Code"></td>
+                    <td>-</td>
+                    <td><input type= "int" name ="name" id="name2" Placeholder="Phone Number"></td>
+                </tr>
+            </table> 
+
+
+            <div class="section">
+                <h2>Mailing Address</h2>
+            
+              <div class="section">
+                <div class="section1">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="section2">
+                  <input type="text" id="fname" name="firstname" placeholder="Enter your first name" required>
+                </div>
+              </div>
+              <div class="section">
+                <div class="section1">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="section2">
+                  <input type="text" id="lname" name="lastname" placeholder="Enter your last name" required>
+                </div>
+              </div>
+
+
+              <div class="section">
+                
+                  <label for="email">Mailing Address:</label>
+                
+                  <div><input type="email" id="email" name="email" placeholder="Your email address.." required></div>
+                  <div><input type="address" id="address1" name=" Street address" placeholder="Street address" required></div>
+                  <div><input type="address" id="address2" name="Street address" placeholder="Street address line 2" required></div>
+                  <div><input type="address" id="address1" name=" address" placeholder="City" required>
+                  <input type="address" id="address" name=" address" placeholder="state/province" required></div>
+                  <div></div><input type="address" id="address" name=" address" placeholder="Postal/zip code" required>
+                  <input type="address" id="address" name=" address" placeholder="country" required></div>
+                
+              </div>
+
+              <div>
+                <div class="section">
+                  <label for="E-mail">E-mail</label>
+                  <input type="email" id="email" name="E-mail" placeholder="eg. myname@example.com" required>
+                </div>
+              </div>
+
+                <div>
+                    <div class="section">
+                
+                 <label for="E-mail"> verify E-mail</label>
+                 <input type="email" id="email" name=" Verify E-mail" placeholder="" required>
+                   </div>
+            </div>
+
+                <div class="section">
+                    
+                 <label for="number">Total Number of Adults</label>
+                 <input type="number" id="number" name="" placeholder="" required>
+                    
+                </div>
+
+
+
+              </div>
+                  <div class="section">
+                <div class="section1">
+                  <label for="comment">Comment:</label>
+                </div>
+                <div class="section2">
+                  <textarea id="comment" name="comment" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+
+
+
+                <li class="form-line" data-type="control_dropdown" id="id_47">
+                    <label class="form-label form-label-top form-label-auto" id="label_47" for="input_47"> Adult Only Or Kid Friendly </label>
+                    <div id="cid_47" class="form-input-wide">
+                      <select class="form-dropdown" id="input_47" name="q47_adultOnly" style="width:150px" data-component="dropdown" aria-labelledby="label_47">
+                        <option value="">  </option>
+                        <option value="Adult Only"> Adult Only </option>
+                        <option value="Kid Friendly"> Kid Friendly </option>
+                        <option value="Doesn't Matter"> Doesn't Matter </option>
+                      </select>
+                    </div>
+                  </li>
+
+
+                  <li class="form-line" data-type="control_dropdown" id="id_46">
+                    <label class="form-label form-label-top form-label-auto" id="label_46" for="input_46"> Flight Only </label>
+                    <div id="cid_46" class="form-input-wide">
+                      <select class="form-dropdown" id="input_46" name="q46_flightOnly" style="width:150px" data-component="dropdown" aria-labelledby="label_46">
+                        <option value="">  </option>
+                        <option value="Yes"> Yes </option>
+                        <option value="No"> No </option>
+                      </select>
+                    </div>
+                  </li>
+
+
+                  <li class="form-line" data-type="control_dropdown" id="id_42">
+                    <label class="form-label form-label-top form-label-auto" id="label_42" for="input_42"> Include Flight </label>
+                    <div id="cid_42" class="form-input-wide">
+                      <select class="form-dropdown" id="input_42" name="q42_includeFlight" style="width:150px" data-component="dropdown" aria-labelledby="label_42">
+                        <option value="">  </option>
+                        <option value="Yes"> Yes </option>
+                        <option value="No"> No </option>
+                      </select>
+                    </div>
+                  </li>
+            </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
+
+
+
+
+
+body {
+    margin:50px 0px; padding:0px;
+    text-align:center;
+    align-items:center;
+}
+label,input {
+ display: block;
+ width: 150px;
+ float: left;
+ margin-bottom: 10px;
+}
+
+label {
+ text-align: right;
+ width: 75px;
+ padding-right: 20px;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 10px;
+  }
